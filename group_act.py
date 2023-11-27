@@ -65,7 +65,6 @@ month_var = tk.StringVar(value=months[0])
 month_dropdown = ttk.Combobox(root, textvariable=month_var, values=months)
 month_dropdown.grid(row=1, column=1, padx=5, pady=5)
 
-# Button to show calendar
 show_button = ttk.Button(root, text="Show Calendar", command=show_calendar)
 show_button.grid(row=2, column=0, columnspan=2, pady=10)
 
